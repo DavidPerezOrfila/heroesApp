@@ -9,11 +9,13 @@ import { MatProgressSpinnerModule } from '@angular/material/progress-spinner';
 import { MatSidenavModule } from '@angular/material/sidenav';
 import { MatToolbarModule } from '@angular/material/toolbar';
 import { NgModule } from '@angular/core';
+import {MatGridListModule} from '@angular/material/grid-list';
 @NgModule({
   exports: [
     MatButtonModule,
     MatCardModule,
     MatIconModule,
+    MatGridListModule,
     MatListModule,
     MatProgressSpinnerModule,
     MatSidenavModule,
