@@ -7,6 +7,7 @@ import { ListadoComponent } from './pages/listado/listado.component';
 
 // Módulos
 import { CommonModule } from '@angular/common';
+import { ConfirmarComponent } from './components/confirmar/confirmar.component';
 import { FlexLayoutModule } from '@angular/flex-layout';
 import { FormsModule } from '@angular/forms';
 import { HeroesRoutingModule } from './heroes-routing.module';
@@ -19,6 +20,7 @@ import { NgModule } from '@angular/core';
   declarations: [
     AgregarComponent,
     BuscarComponent,
+    ConfirmarComponent,
     HeroeComponent,
     HeroeTarjetaComponent,
     HomeComponent,
